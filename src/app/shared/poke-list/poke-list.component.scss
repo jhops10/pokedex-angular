@@ -17,7 +17,9 @@
     margin-bottom: rem-calc(10);
     padding: rem-calc(20);
 
+
     border-radius: rem-calc(10);
+
 
 
     &__status {
@@ -41,8 +43,27 @@
           border-radius: rem-calc(32);
           width: rem-calc(60);
           margin-bottom: rem-calc(5);
+
+          padding: rem-calc(3) rem-calc(10);
+          font-weight: bold;
+          text-transform: capitalize;
         }
       }
+    }
+
+    &__more-info {
+      cursor: pointer;
+      background-color: var(--azul);
+      padding: rem-calc(3) rem-calc(10);
+      border-radius: rem-calc(32);
+      position: absolute;
+      bottom: rem-calc(25);
+      text-align: center;
+      font-size: rem-calc(10);
+      font-weight: bold;
+      color: var(--branco);
+
+
     }
 
     &__img {
