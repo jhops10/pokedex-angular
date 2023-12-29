@@ -11,7 +11,7 @@ Exercício prático para aprimorar minhas habilidades e documentar o meu process
 
 ## Como Rodar
 * Clone o Repositório
-* Execute o Frontend com o comando __'ng serve'__
+* Execute o comando __'ng serve'__
 
 
 
